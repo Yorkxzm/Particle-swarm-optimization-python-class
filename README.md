@@ -1,4 +1,4 @@
-<p align="center">PSOCLASSES</p>
+# <p align="center">PSOCLASSES</p>
 
 介绍由中文和英文混杂，下面分别给出英文和中文介绍，在代码中大量采用中文注释，请有需要者自行翻译。<br>
 The introduction is mixed by Chinese and English, the following is given in English and Chinese respectively, in the code a lot of Chinese comments are used, please translate yourself if necessary.<br>
@@ -11,7 +11,7 @@ Use for any purpose is free of charge, but reproduction must indicate the source
 This is a class of particle swarm algorithms implemented in python. There are two files, where unconsoptipso.py contains several particle swarm algorithms for solving unconstrained functions. consoptipso.py is responsible for solving constrained planning problems. It can solve shape-shifting, non-shape-shifting, equational and inequality constraints simultaneously. (However, it is not recommended to use it for solving problems with equation constraints)<br>
 
 这里不给出粒子群算法的公式，给出各个参数的说明，具体使用参考给出的ipynb(jupyter notebook文件<br>
-unconsoptipso.py 共含四个类：<br>
+共含四个类：<br>
 standardpso:标准粒子群算法<br>
 torchstdpso：标准粒子群算法采用torch张量版本，速度很慢，不建议使用 <br>
 adapwstdpso：带有自适应优化惯性权重的pso  <br>
@@ -42,6 +42,9 @@ wdecfun：衰减函数，可选f1,f2,f3,f4，其中f4有参数，f4c，越大前
 adapwintstdpso:可以指定变量为整形<br>
 传入参数isint是一个python列表，每一维元素代表某个变量是否为整形，0为非整形，1为整形
 如[0,0,1]代表x3是整数变量<br>
+
+我们求解了一个无约束最大化和一个最小化问题，全部都是较为复杂的带有多个局部极值点的函数，见ipynb。<br>
+
 
 consoptipso.py共两个类，这两个类全部有惯性权重自适应。<br>
 这些类的使用需要传入参数aeq和a，其基础思想为设置罚函数。<br>
@@ -123,7 +126,7 @@ The isint argument is a python list with each dimension representing whether the
 
 For example, [0,0,1] means that x3 is an integer variable.
 
-
+We solved an unconstrained maximization and a minimization problem, both of which were complex functions with multiple local extremes.See ipynb . <br>
 
 consoptipso.py has two classes, both of which have inertia weight adaptation. <br>
 
