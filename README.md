@@ -10,3 +10,4 @@ This is a class of particle swarm algorithms implemented in python. There are tw
 
 这里不给出粒子群算法的公式，
 unconsoptipso.py 共含四个类：standardpso（标准粒子群算法），
+![1](https://user-images.githubusercontent.com/92018576/201522700-ca85bd9c-ecfd-4cf1-bf40-70898995ebaa.png)
