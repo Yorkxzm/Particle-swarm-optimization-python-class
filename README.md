@@ -157,7 +157,7 @@ Typical non-convex optimization (maximization), where x is an integer variable, 
 
 consadawpso（Not recommended）: <br>
 
-It is possible to add both equality and inequality constraints. Since it is difficult for a particle to find the equality constraint (a straight line in space), we define tol, which is considered satisfied when the boundary value is less than tol.
+It is possible to add both equality and inequality constraints. Since it is difficult for a particle to find the equality constraint (a hyper-line in space), we define tol, which is considered satisfied when the boundary value is less than tol.
 
 Solve an optimization problem (maximization) with equality constraints: <br>
 ![image](https://user-images.githubusercontent.com/92018576/201524642-e070faa3-81ba-4795-ad33-a4221f3c7b5b.png)<br>
