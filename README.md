@@ -140,7 +140,7 @@ It is free to define aeq and a, plus the judgment. See the jupyter notebook for 
 
 
 
-consadawpsoaeq: <br>
+consadawpsoaeq（Not recommended）: <br>
 
 Only inequality constraints can be added, which works well, but still requires multiple runs and parameter tuning for some complex problems. <br>
 
