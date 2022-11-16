@@ -140,7 +140,7 @@ It is free to define aeq and a, plus the judgment. See the jupyter notebook for 
 
 
 
-consadawpsoaeq（Not recommended）: <br>
+consadawpsoaeq: <br>
 
 Only inequality constraints can be added, which works well, but still requires multiple runs and parameter tuning for some complex problems. <br>
 
@@ -155,7 +155,7 @@ Typical non-convex optimization (maximization), where x is an integer variable, 
 
 ![image](https://user-images.githubusercontent.com/92018576/201524639-b5f040e4-d433-4359-b642-6f232f4e4636.png)<br>
 
-consadawpso: <br>
+consadawpso（Not recommended）: <br>
 
 It is possible to add both equality and inequality constraints. Since it is difficult for a particle to find the equality constraint (a straight line in space), we define tol, which is considered satisfied when the boundary value is less than tol.
 
