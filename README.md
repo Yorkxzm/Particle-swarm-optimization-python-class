@@ -1,4 +1,4 @@
-# <p align="center">PSOCLASSES</p>
+# <p align="center">PSOclasses</p>
 
 介绍由中文和英文混杂，下面分别给出英文和中文介绍，在代码中大量采用中文注释，请有需要者自行翻译。<br>
 The introduction is mixed by Chinese and English, the following is given in English and Chinese respectively, in the code a lot of Chinese comments are used, please translate yourself if necessary.<br>
